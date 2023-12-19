@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
+  padding: 80px 0 0 0;
+  width: 100vh;
+}
+h2 {
+  font-size: 50px;
+  color: #292933;
+  margin-bottom: 40px;
+}
+.h2 {
+  color: burlywood;
+}
+.conteiner-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #cccc;
+}
+.logo {
+  color: burlywood;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav ul li {
+  position: relative;
+  float: left;
+}
+.nav ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+  font-weight: 400;
+}
+.nav ul li a:hover {
+  background-color: burlywood;
+}
+#menu {
+  display: none;
+}
+.menu {
+  width: 25px;
+  display: none;
+}
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+.contenheader {
+  display: flex;
+}
+.textoheader {
+  width: 50%;
+}
+.textoheader h1 {
+  font-size: 70px;
+  line-height: 85px;
+  color: black;
+  margin-bottom: 2opx;
+}
+.textoheader span {
+  font-size: 90px;
+  color: burlywood;
+}
+.textoheader p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 30px;
+}
+.imagenheader {
+  width: 50%;
+  text-align: center;
+  padding: 0 0 0 16rem;
+}
+.imagenheader img {
+  width: 400px;
+}
+.boton1 {
+  padding: 13px 20px;
+  border: 1px solid burlywood;
+  color: burlywood;
+  border-radius: 15px;
+  margin-right: 30px;
+  font-size: 16px;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.boton1:hover {
+  background-color: burlywood;
+  color: white;
+}
+.conteiner-G {
+  padding: 0 0 100px 0;
+}
+.Gcontenedor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+.textog {
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding-bottom: 35px;
+}
+.textog img {
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 250px;
+}
+.textog h3 {
+  font-size: 18px;
+  color: black;
+  padding: 25px 25px 10px 25px;
+}
+.textog p {
+  font-size: 12px;
+  color: black;
+  padding: 0 25px 25px 25px;
+}
+.priss {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+  color: burlywood;
+}
+.priss .p {
+  color: #000;
+}
+.boton2 {
+  font-size: 16px;
+  padding: 7px 15px;
+  color: #000;
+  border-radius: 10px;
+  background-color: burlywood;
+}
+.conteiner-about {
+  padding: 100px 0;
+  margin-bottom: 100px;
+}
+.contenedoraba {
+  display: flex;
+}
+.abatexto {
+  width: 50%;
+}
+.abatexto p {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 30px;
+}
+.abasan {
+  align-items: center;
+  justify-content: space-between;
+}
+.abasan span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.imgaba {
+  width: 50%;
+  text-align: right;
+}
+.imgaba img {
+  width: 300px;
+}
+.conteiner-sobrenosotros {
+  padding-bottom: 100px;
+  display: flex;
+}
+.infoimg {
+  gap: 3rem;
+  display: flex;
+  width: 50%;
+  padding: 100px;
+}
+.infoimg img {
+  width: 50%;
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+}
+.infotexto {
+  padding-left: 55px;
+}
+.infotexto p {
+  font-size: 16px;
+  color: #cccc;
+  margin-bottom: 35px;
+}
+.conteiner-testimonios {
+  padding: 30px 0 30px 0px;
+}
+.comentarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+.textocoment {
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding-bottom: 35px;
+}
+.textocoment img {
+  margin: 25px 0 0 20%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid #ccc;
+  transition: 0.3s;
+}
+.textocoment:hover {
+  transform: translateY(-30px);
+}
+.textocoment h3 {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  padding: 25px 25px 10px 25px;
+}
+.textocoment p {
+  font-size: 12px;
+  color: black;
+  padding: 0 25px 25px 25px;
+}
+.textocoment span {
+  margin-left: 25px;
+  align-items: center;
+}
